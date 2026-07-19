@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For Reabetswe ❤️</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div id="particles"></div>
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <p class="small-title">
+            A Website Made Especially For
+        </p>
+
+        <h1>
+            Reabetswe
+        </h1>
+
+        <h2>
+            From Remoratile ❤️
+        </h2>
+
+        <button onclick="scrollToSection('intro')">
+
+            Begin The Journey
+
+        </button>
+
+    </div>
+
+</section>
+
+<!-- INTRO -->
+
+<section id="intro">
+
+    <h2>Hello My Love ❤️</h2>
+
+    <p>
+
+        I wanted to make you something different.
+
+        Something that you could always come back to whenever university becomes overwhelming.
+
+    </p>
+
+    <p>
+
+        This isn't just a website.
+
+        It's a reminder of how proud I am of you.
+
+    </p>
+
+</section>
+
+<!-- WORLD CUP -->
+
+<section>
+
+    <h2>⚽ Today's Match</h2>
+
+    <h3>Spain 🇪🇸 vs Argentina 🇦🇷</h3>
+
+    <p>
+
+        I asked you who you're supporting...
+
+    </p>
+
+    <div class="stadium">
+
+        "The Stadium."
+
+    </div>
+
+    <p>
+
+        I laughed so much because that's honestly such a Reabetswe answer.
+
+    </p>
+
+</section>
+
+<!-- ABOUT HIM -->
+
+<section>
+
+    <h2>The Man I Admire</h2>
+
+    <div class="grid">
+
+        <div class="card">
+
+            👷
+
+            <h3>Final Year</h3>
+
+            <p>
+
+                Civil Engineering Student
+
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            🏡
+
+            <h3>Residence Anchor</h3>
+
+            <p>
+
+                Always serving others.
+
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            💛
+
+            <h3>Favourite Colour</h3>
+
+            <p>
+
+                Yellow
+
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            🌻
+
+            <h3>Favourite Flower</h3>
+
+            <p>
+
+                Sunflowers
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ENGINEERING -->
+
+<section>
+
+    <h2>Current Project</h2>
+
+    <h1>
+
+        Becoming Engineer Reabetswe
+
+    </h1>
+
+    <div class="progress">
+
+        <div class="fill"></div>
+
+    </div>
+
+    <p>
+
+        Status:
+
+        Final Semester
+
+    </p>
+
+</section>
+
+<!-- ANIME -->
+
+<section>
+
+    <h2>Your Heroes</h2>
+
+    <div class="anime">
+
+        <div>
+
+            <img src="images/dbz.png">
+
+            <h3>Dragon Ball Z</h3>
+
+            <p>
+
+                Hard Work Level
+
+            </p>
+
+            <h1>
+
+                OVER 9000
+
+            </h1>
+
+        </div>
+
+        <div>
+
+            <img src="images/naruto.png">
+
+            <h3>Naruto</h3>
+
+            <p>
+
+                Never Give Up.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- OUR STORY -->
+
+<section>
+
+    <h2>Us ❤️</h2>
+
+    <div class="story">
+
+        <div>
+
+            <h3>Remoratile</h3>
+
+            <p>
+
+                7 October 🎂
+
+            </p>
+
+        </div>
+
+        <div>
+
+            ❤️
+
+        </div>
+
+        <div>
+
+            <h3>Reabetswe</h3>
+
+            <p>
+
+                20 December 🎂
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- COUNTDOWN -->
+
+<section>
+
+    <h2>
+
+        Until Our
+
+        10 Month Anniversary
+
+    </h2>
+
+    <h1>
+
+        20 September
+
+    </h1>
+
+    <div id="countdown">
+
+    </div>
+
+</section>
+
+<!-- LETTER -->
+
+<section>
+
+    <h2>
+
+        An Open Letter
+
+    </h2>
+
+    <div class="letter">
+
+        <p>
+
+            My Love,
+
+        </p>
+
+        <p>
+
+            I know you've been incredibly busy lately.
+
+        </p>
+
+        <p>
+
+            Between your final year, assignments, being a residence anchor and preparing for your future, I know life hasn't slowed down for you.
+
+        </p>
+
+        <p>
+
+            Even though we don't always get as much time together as we'd like, I hope you never doubt how much I love you.
+
+        </p>
+
+        <p>
+
+            Watching you chase your dreams makes me incredibly proud.
+
+        </p>
+
+        <p>
+
+            I believe in you with all my heart.
+
+        </p>
+
+        <p>
+
+            This final semester is just another chapter before you become the amazing engineer I already know you'll be.
+
+        </p>
+
+        <p>
+
+            Keep believing in yourself.
+
+        </p>
+
+        <p>
+
+            Keep pushing.
+
+        </p>
+
+        <p>
+
+            Keep smiling.
+
+        </p>
+
+        <p>
+
+            And whenever things become difficult...
+
+        </p>
+
+        <p>
+
+            Remember that somewhere there's a girl named Remoratile cheering louder than anyone else.
+
+        </p>
+
+        <p>
+
+            I love you more than words can ever explain.
+
+        </p>
+
+        <h3>
+
+            Forever Yours,
+
+            ❤️ Remoratile 🌻
+
+        </h3>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <h1>
+
+        I Love You
+
+    </h1>
+
+    <h2>
+
+        Good luck this semester.
+
+    </h2>
+
+    <p>
+
+        You've got this.
+
+        I'll always be your biggest supporter.
+
+    </p>
+
+    <button>
+
+        🌻 Replay Our Story
+
+    </button>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
