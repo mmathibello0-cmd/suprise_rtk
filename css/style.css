@@ -1,0 +1,383 @@
+/*=========================================
+    GOOGLE FONTS
+=========================================*/
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/*=========================================
+    RESET
+=========================================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+html{
+    overflow-x:hidden;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#080808;
+    color:white;
+    overflow-x:hidden;
+    line-height:1.8;
+}
+
+/*=========================================
+    SCROLLBAR
+=========================================*/
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#111;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#FFD400;
+    border-radius:20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:#ffea00;
+}
+
+/*=========================================
+    PARTICLE BACKGROUND
+=========================================*/
+
+#particles{
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index:-2;
+}
+
+/*=========================================
+    HERO
+=========================================*/
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px;
+    background:
+    linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.8)),
+    url("../images/hero.jpg") center center/cover;
+}
+
+.hero-content{
+    max-width:850px;
+}
+
+.small-title{
+    color:#FFD400;
+    font-size:18px;
+    letter-spacing:4px;
+    text-transform:uppercase;
+}
+
+.hero h1{
+    font-size:85px;
+    color:#FFD400;
+    margin:20px 0;
+    font-family:'Great Vibes',cursive;
+}
+
+.hero h2{
+    font-weight:300;
+    margin-bottom:35px;
+}
+
+button{
+    background:#FFD400;
+    color:#000;
+    border:none;
+    padding:16px 40px;
+    border-radius:50px;
+    font-size:17px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.4s;
+}
+
+button:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 25px #FFD400;
+}
+
+/*=========================================
+    SECTIONS
+=========================================*/
+
+section{
+    padding:100px 10%;
+}
+
+section h2{
+    text-align:center;
+    color:#FFD400;
+    font-size:42px;
+    margin-bottom:40px;
+}
+
+section h3{
+    margin-bottom:15px;
+}
+
+section p{
+    font-size:18px;
+    color:#dddddd;
+    margin-bottom:20px;
+}
+
+/*=========================================
+    STADIUM QUOTE
+=========================================*/
+
+.stadium{
+    margin:50px auto;
+    max-width:500px;
+    text-align:center;
+    padding:35px;
+    background:#111;
+    border:2px solid #FFD400;
+    border-radius:20px;
+    font-size:40px;
+    color:#FFD400;
+    font-weight:bold;
+    box-shadow:0 0 30px rgba(255,212,0,.25);
+}
+
+/*=========================================
+    CARD GRID
+=========================================*/
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:30px;
+    margin-top:60px;
+}
+
+.card{
+    background:#131313;
+    border-radius:20px;
+    padding:35px;
+    text-align:center;
+    transition:.4s;
+    border:1px solid transparent;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    border-color:#FFD400;
+    box-shadow:0 0 35px rgba(255,212,0,.3);
+}
+
+.card h3{
+    color:#FFD400;
+    margin:20px 0;
+}
+
+.card p{
+    color:#cfcfcf;
+}
+
+/*=========================================
+    PROGRESS BAR
+=========================================*/
+
+.progress{
+    width:100%;
+    max-width:700px;
+    height:25px;
+    background:#222;
+    border-radius:50px;
+    margin:40px auto;
+    overflow:hidden;
+}
+
+.fill{
+    width:90%;
+    height:100%;
+    background:linear-gradient(90deg,#FFD400,#ffe95b);
+    animation:loading 3s ease-in-out infinite alternate;
+}
+
+@keyframes loading{
+
+    from{
+        width:85%;
+    }
+
+    to{
+        width:92%;
+    }
+
+}
+
+/*=========================================
+    ANIME
+=========================================*/
+
+.anime{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:50px;
+    text-align:center;
+    margin-top:50px;
+}
+
+.anime img{
+    width:220px;
+    margin-bottom:25px;
+}
+
+.anime h1{
+    color:#FFD400;
+    font-size:45px;
+}
+
+/*=========================================
+    OUR STORY
+=========================================*/
+
+.story{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:70px;
+    flex-wrap:wrap;
+    text-align:center;
+    margin-top:60px;
+}
+
+.story div{
+    background:#131313;
+    padding:35px;
+    border-radius:20px;
+    min-width:240px;
+}
+
+.story h3{
+    color:#FFD400;
+}
+
+.story p{
+    margin-top:10px;
+}
+
+/*=========================================
+    COUNTDOWN
+=========================================*/
+
+#countdown{
+    margin-top:40px;
+    text-align:center;
+    font-size:45px;
+    color:#FFD400;
+    font-weight:bold;
+}
+
+/*=========================================
+    LETTER
+=========================================*/
+
+.letter{
+    max-width:900px;
+    margin:auto;
+    background:#111;
+    padding:60px;
+    border-radius:25px;
+    border-left:8px solid #FFD400;
+}
+
+.letter p{
+    margin-bottom:25px;
+    text-align:justify;
+}
+
+.letter h3{
+    margin-top:50px;
+    text-align:right;
+    color:#FFD400;
+    font-family:'Great Vibes',cursive;
+    font-size:45px;
+}
+
+/*=========================================
+    FOOTER
+=========================================*/
+
+footer{
+    text-align:center;
+    padding:80px 20px;
+    background:#050505;
+}
+
+footer h1{
+    color:#FFD400;
+    font-size:60px;
+    margin-bottom:20px;
+    font-family:'Great Vibes',cursive;
+}
+
+footer h2{
+    margin-bottom:20px;
+}
+
+footer p{
+    color:#bdbdbd;
+    margin-bottom:35px;
+}
+
+/*=========================================
+    RESPONSIVE
+=========================================*/
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:55px;
+}
+
+section{
+    padding:80px 7%;
+}
+
+section h2{
+    font-size:32px;
+}
+
+.stadium{
+    font-size:28px;
+}
+
+.story{
+    gap:30px;
+}
+
+#countdown{
+    font-size:30px;
+}
+
+.letter{
+    padding:35px;
+}
+
+.letter h3{
+    font-size:35px;
+}
+
+}
