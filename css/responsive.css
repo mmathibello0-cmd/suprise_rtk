@@ -1,43 +1,44 @@
-/*==================================================
-                LARGE LAPTOPS
-==================================================*/
+/*====================================================
+                LARGE SCREENS
+====================================================*/
 
-@media (max-width: 1200px){
+@media (max-width:1200px){
 
     section{
         padding:90px 8%;
     }
 
     .hero h1{
-        font-size:70px;
-    }
-
-    .hero h2{
-        font-size:28px;
-    }
-
-}
-
-/*==================================================
-                    TABLETS
-==================================================*/
-
-@media (max-width: 992px){
-
-    .hero{
-        padding:60px 30px;
-    }
-
-    .hero h1{
-        font-size:60px;
+        font-size:72px;
     }
 
     .hero h2{
         font-size:26px;
     }
 
+}
+
+/*====================================================
+                    LAPTOPS
+====================================================*/
+
+@media (max-width:992px){
+
+    .hero{
+        padding:60px 30px;
+    }
+
+    .hero h1{
+        font-size:62px;
+    }
+
+    .hero h2{
+        font-size:24px;
+    }
+
     .small-title{
-        font-size:16px;
+        font-size:15px;
+        letter-spacing:3px;
     }
 
     section{
@@ -53,229 +54,377 @@
     }
 
     .anime{
+
         grid-template-columns:1fr;
-        text-align:center;
+
+        gap:40px;
+
+    }
+
+    .anime img{
+        width:200px;
     }
 
     .story{
+
         flex-direction:column;
-        gap:25px;
+
+        gap:30px;
+
     }
 
     .story div{
+
         width:100%;
-        max-width:400px;
+
+        max-width:420px;
+
     }
 
     .letter{
-        padding:40px;
+
+        padding:45px;
+
     }
 
 }
 
-/*==================================================
-                    MOBILE
-==================================================*/
+/*====================================================
+                    TABLETS
+====================================================*/
 
 @media (max-width:768px){
 
     .hero{
+
         min-height:100vh;
+
         padding:40px 20px;
+
+        background-position:center;
+
     }
 
     .hero h1{
-        font-size:48px;
+
+        font-size:50px;
+
         line-height:1.2;
+
     }
 
     .hero h2{
-        font-size:22px;
+
+        font-size:20px;
+
     }
 
     .small-title{
-        font-size:14px;
+
+        font-size:13px;
+
         letter-spacing:2px;
+
     }
 
     button{
+
         width:100%;
+
         max-width:280px;
+
         padding:15px;
+
         font-size:16px;
+
     }
 
     section{
+
         padding:70px 20px;
+
     }
 
     section h2{
+
         font-size:30px;
+
     }
 
     section p{
+
         font-size:16px;
+
     }
 
     .stadium{
-        font-size:28px;
+
+        font-size:26px;
+
         padding:25px;
+
     }
 
     .grid{
+
         grid-template-columns:1fr;
+
     }
 
     .card{
+
         padding:30px 20px;
+
     }
 
     .progress{
-        height:20px;
+
+        height:18px;
+
     }
 
     .anime img{
-        width:170px;
+
+        width:180px;
+
     }
 
     .anime h1{
-        font-size:34px;
+
+        font-size:32px;
+
     }
 
     .story{
-        flex-direction:column;
-        gap:20px;
+
+        gap:25px;
+
     }
 
     .story div{
+
         width:100%;
+
     }
 
-    #countdown{
-        font-size:30px;
-        line-height:1.4;
+    .countdown-container{
+
+        gap:15px;
+
+    }
+
+    .time-box{
+
+        width:110px;
+
+        height:110px;
+
+    }
+
+    .time-box h1{
+
+        font-size:34px;
+
+    }
+
+    .time-box span{
+
+        font-size:12px;
+
     }
 
     .letter{
+
         padding:30px 25px;
+
     }
 
     .letter h3{
-        font-size:34px;
+
         text-align:center;
+
+        font-size:34px;
+
     }
 
     footer{
+
         padding:60px 20px;
+
     }
 
     footer h1{
+
         font-size:42px;
+
     }
 
     footer h2{
+
         font-size:24px;
+
     }
 
 }
 
-/*==================================================
+/*====================================================
                 SMALL PHONES
-==================================================*/
+====================================================*/
 
 @media (max-width:480px){
 
     .hero h1{
+
         font-size:40px;
+
     }
 
     .hero h2{
+
         font-size:18px;
+
     }
 
     .small-title{
+
         font-size:12px;
+
     }
 
     section h2{
+
         font-size:26px;
+
     }
 
     section p{
+
         font-size:15px;
+
     }
 
     .stadium{
+
         font-size:22px;
+
     }
 
     .card{
+
         padding:25px 18px;
+
     }
 
     .anime img{
-        width:140px;
+
+        width:150px;
+
     }
 
     .anime h1{
+
         font-size:28px;
+
+    }
+
+    .countdown-container{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .time-box{
+
+        width:100%;
+
+        max-width:220px;
+
+        height:90px;
+
+    }
+
+    .time-box h1{
+
+        font-size:28px;
+
     }
 
     .letter{
+
         padding:25px 20px;
+
     }
 
     .letter h3{
+
         font-size:28px;
+
     }
 
     footer h1{
+
         font-size:36px;
+
     }
 
     footer h2{
-        font-size:20px;
-    }
 
-    #countdown{
-        font-size:24px;
+        font-size:20px;
+
     }
 
 }
 
-/*==================================================
-            VERY SMALL DEVICES
-==================================================*/
+/*====================================================
+            VERY SMALL PHONES
+====================================================*/
 
 @media (max-width:360px){
 
     .hero h1{
+
         font-size:34px;
+
     }
 
     .hero h2{
+
         font-size:16px;
+
     }
 
     button{
+
         font-size:15px;
+
         padding:14px;
+
     }
 
     section{
+
         padding:60px 15px;
+
     }
 
     .letter{
+
         padding:20px 15px;
+
     }
 
     .card{
+
         padding:20px 15px;
+
     }
 
     footer h1{
+
         font-size:30px;
+
     }
 
 }
