@@ -1,364 +1,585 @@
-/*=========================================
-    FADE IN
-=========================================*/
+/*====================================================
+                FADE IN
+====================================================*/
 
 @keyframes fadeIn{
 
     from{
+
         opacity:0;
         transform:translateY(40px);
+
     }
 
     to{
+
         opacity:1;
         transform:translateY(0);
+
     }
 
 }
 
-/*=========================================
-    FADE LEFT
-=========================================*/
+/*====================================================
+                FADE LEFT
+====================================================*/
 
 @keyframes fadeLeft{
 
     from{
+
         opacity:0;
         transform:translateX(-80px);
+
     }
 
     to{
+
         opacity:1;
         transform:translateX(0);
+
     }
 
 }
 
-/*=========================================
-    FADE RIGHT
-=========================================*/
+/*====================================================
+                FADE RIGHT
+====================================================*/
 
 @keyframes fadeRight{
 
     from{
+
         opacity:0;
         transform:translateX(80px);
+
     }
 
     to{
+
         opacity:1;
         transform:translateX(0);
+
     }
 
 }
 
-/*=========================================
-    SCALE IN
-=========================================*/
+/*====================================================
+                SCALE IN
+====================================================*/
 
 @keyframes scaleIn{
 
     from{
+
         opacity:0;
-        transform:scale(.7);
+        transform:scale(.75);
+
     }
 
     to{
+
         opacity:1;
         transform:scale(1);
+
     }
 
 }
 
-/*=========================================
-    FLOATING
-=========================================*/
+/*====================================================
+                FLOAT
+====================================================*/
 
 @keyframes floating{
 
     0%{
-        transform:translateY(0px);
+
+        transform:translateY(0);
+
     }
 
     50%{
-        transform:translateY(-15px);
+
+        transform:translateY(-12px);
+
     }
 
     100%{
-        transform:translateY(0px);
+
+        transform:translateY(0);
+
     }
 
 }
 
-/*=========================================
-    GLOW
-=========================================*/
+/*====================================================
+                GLOW
+====================================================*/
 
 @keyframes glow{
 
     0%{
-        box-shadow:0 0 10px rgba(255,212,0,.3);
+
+        box-shadow:
+        0 0 10px rgba(255,212,0,.25);
+
     }
 
     50%{
+
         box-shadow:
-        0 0 20px rgba(255,212,0,.8),
-        0 0 40px rgba(255,212,0,.5);
+        0 0 25px rgba(255,212,0,.8),
+        0 0 45px rgba(255,212,0,.35);
+
     }
 
     100%{
-        box-shadow:0 0 10px rgba(255,212,0,.3);
+
+        box-shadow:
+        0 0 10px rgba(255,212,0,.25);
+
     }
 
 }
 
-/*=========================================
-    HEARTBEAT
-=========================================*/
+/*====================================================
+                HEARTBEAT
+====================================================*/
 
 @keyframes heartbeat{
 
     0%{
+
         transform:scale(1);
+
     }
 
-    20%{
-        transform:scale(1.15);
-    }
+    25%{
 
-    40%{
-        transform:scale(1);
-    }
+        transform:scale(1.08);
 
-    60%{
-        transform:scale(1.12);
-    }
-
-    100%{
-        transform:scale(1);
-    }
-
-}
-
-/*=========================================
-    ROTATE
-=========================================*/
-
-@keyframes rotateSlow{
-
-    from{
-        transform:rotate(0deg);
-    }
-
-    to{
-        transform:rotate(360deg);
-    }
-
-}
-
-/*=========================================
-    BOUNCE
-=========================================*/
-
-@keyframes bounce{
-
-    0%,100%{
-        transform:translateY(0);
     }
 
     50%{
-        transform:translateY(-20px);
+
+        transform:scale(1);
+
     }
 
-}
+    75%{
 
-/*=========================================
-    SHIMMER
-=========================================*/
+        transform:scale(1.05);
 
-@keyframes shimmer{
-
-    0%{
-        background-position:-300px;
     }
 
     100%{
-        background-position:300px;
+
+        transform:scale(1);
+
     }
 
 }
 
-/*=========================================
-    TEXT GLOW
-=========================================*/
+/*====================================================
+                TEXT GLOW
+====================================================*/
 
 @keyframes textGlow{
 
     0%{
-        text-shadow:0 0 5px #FFD400;
+
+        text-shadow:
+        0 0 8px #FFD400;
+
     }
 
     50%{
+
         text-shadow:
         0 0 15px #FFD400,
         0 0 30px #FFD400,
-        0 0 50px #FFD400;
+        0 0 60px #FFD400;
+
     }
 
     100%{
-        text-shadow:0 0 5px #FFD400;
+
+        text-shadow:
+        0 0 8px #FFD400;
+
     }
 
 }
 
-/*=========================================
-    SUNFLOWER SPIN
-=========================================*/
+/*====================================================
+                BOUNCE
+====================================================*/
 
-@keyframes sunflowerSpin{
+@keyframes bounce{
 
-    from{
-        transform:rotate(0deg);
-    }
+    0%,100%{
 
-    to{
-        transform:rotate(360deg);
-    }
+        transform:translateY(0);
 
-}
-
-/*=========================================
-    WAVE
-=========================================*/
-
-@keyframes wave{
-
-    0%{
-        transform:rotate(0deg);
-    }
-
-    25%{
-        transform:rotate(10deg);
     }
 
     50%{
-        transform:rotate(-8deg);
-    }
 
-    75%{
-        transform:rotate(8deg);
-    }
+        transform:translateY(-18px);
 
-    100%{
-        transform:rotate(0deg);
     }
 
 }
 
-/*=========================================
-    CLASSES
-=========================================*/
+/*====================================================
+                SHIMMER
+====================================================*/
+
+@keyframes shimmer{
+
+    from{
+
+        background-position:-300px;
+
+    }
+
+    to{
+
+        background-position:300px;
+
+    }
+
+}
+
+/*====================================================
+                HERO
+====================================================*/
 
 .hero-content{
-    animation:fadeIn 1.5s ease;
+
+    animation:
+    fadeIn 1.5s ease;
+
 }
 
 .hero h1{
+
     animation:
-    fadeIn 1.5s ease,
-    textGlow 3s infinite;
+
+    fadeIn 1.6s ease,
+
+    textGlow 5s ease-in-out infinite;
+
 }
 
+.hero h2{
+
+    animation:
+
+    fadeIn 2s ease;
+
+}
+
+.hero button{
+
+    animation:
+
+    fadeIn 2.5s ease,
+
+    glow 3s ease-in-out infinite;
+
+}
+/*====================================================
+                BUTTON HOVER
+====================================================*/
+
 button{
-    animation:fadeIn 2s ease;
+
+    transition:
+        transform .35s ease,
+        box-shadow .35s ease,
+        background .35s ease;
+
 }
 
 button:hover{
-    animation:heartbeat .8s infinite;
+
+    transform:
+        translateY(-6px)
+        scale(1.04);
+
 }
 
+button:active{
+
+    transform:scale(.96);
+
+}
+
+/*====================================================
+                CARD ANIMATIONS
+====================================================*/
+
 .card{
-    animation:scaleIn 1s ease;
+
+    animation:
+        scaleIn 1s ease;
+
+    transition:
+        transform .4s,
+        box-shadow .4s,
+        border-color .4s;
+
 }
 
 .card:hover{
+
     animation:
-    floating 2s infinite,
-    glow 2s infinite;
+        floating 3s ease-in-out infinite,
+        glow 3s ease-in-out infinite;
+
 }
+
+/*====================================================
+                STADIUM
+====================================================*/
 
 .stadium{
+
     animation:
-    bounce 2s infinite,
-    glow 3s infinite;
+
+        bounce 3s ease-in-out infinite,
+
+        glow 4s ease-in-out infinite;
+
 }
 
+/*====================================================
+                PROGRESS BAR
+====================================================*/
+
 .progress{
-    animation:glow 3s infinite;
+
+    animation:
+        glow 4s ease-in-out infinite;
+
 }
 
 .fill{
-    background:linear-gradient(
-    90deg,
-    #FFD400,
-    #fff48d,
-    #FFD400
-    );
+
+    background:
+        linear-gradient(
+            90deg,
+            #FFD400,
+            #fff48d,
+            #FFD400
+        );
 
     background-size:300%;
 
     animation:
-    shimmer 3s infinite linear;
+
+        shimmer 3s linear infinite;
+
+}
+
+/*====================================================
+                ANIME
+====================================================*/
+
+.anime div{
+
+    animation:
+        fadeIn 1.2s ease;
+
 }
 
 .anime img{
-    animation:floating 4s infinite ease-in-out;
+
+    animation:
+
+        floating 5s ease-in-out infinite;
+
+    transition:
+        transform .4s,
+        filter .4s;
+
 }
+
+.anime img:hover{
+
+    transform:scale(1.08);
+
+    filter:
+        drop-shadow(0 0 20px #FFD400);
+
+}
+
+.anime h1{
+
+    animation:
+        textGlow 5s ease-in-out infinite;
+
+}
+
+/*====================================================
+                STORY
+====================================================*/
 
 .story div{
-    animation:fadeIn 1.2s ease;
+
+    animation:
+        fadeIn 1.3s ease;
+
+    transition:
+        transform .4s,
+        box-shadow .4s;
+
 }
+
+.story div:hover{
+
+    transform:
+        translateY(-10px);
+
+}
+
+/*====================================================
+                COUNTDOWN
+====================================================*/
+
+.time-box{
+
+    animation:
+
+        floating 6s ease-in-out infinite,
+
+        glow 5s ease-in-out infinite;
+
+}
+
+.time-box:nth-child(2){
+
+    animation-delay:.5s;
+
+}
+
+.time-box:nth-child(3){
+
+    animation-delay:1s;
+
+}
+
+.time-box:nth-child(4){
+
+    animation-delay:1.5s;
+
+}
+
+/*====================================================
+                LETTER
+====================================================*/
 
 .letter{
-    animation:fadeIn 2s ease;
+
+    animation:
+
+        fadeIn 2s ease;
+
 }
+
+.letter:hover{
+
+    animation:
+
+        floating 8s ease-in-out infinite;
+
+}
+
+/*====================================================
+                FOOTER
+====================================================*/
 
 footer h1{
-    animation:textGlow 4s infinite;
+
+    animation:
+
+        textGlow 5s ease-in-out infinite;
+
 }
 
-/*=========================================
-    SCROLL REVEAL
-=========================================*/
+footer button{
+
+    animation:
+
+        glow 4s ease-in-out infinite;
+
+}
+/*====================================================
+                SCROLL REVEAL
+====================================================*/
 
 .reveal{
 
     opacity:0;
+
     transform:translateY(80px);
-    transition:1s ease;
+
+    transition:
+        opacity 1s ease,
+        transform 1s ease;
 
 }
 
 .reveal.active{
 
     opacity:1;
+
     transform:translateY(0);
 
 }
 
-/*=========================================
-    FLOATING SUNFLOWERS
-=========================================*/
+/*====================================================
+                ROTATE
+====================================================*/
+
+@keyframes rotateSlow{
+
+    from{
+
+        transform:rotate(0deg);
+
+    }
+
+    to{
+
+        transform:rotate(360deg);
+
+    }
+
+}
+
+/*====================================================
+            FLOATING SUNFLOWERS
+====================================================*/
 
 .sunflower{
 
     position:fixed;
-    width:40px;
+
+    top:-100px;
+
+    width:45px;
+
     pointer-events:none;
+
     z-index:999;
+
     animation:
-    sunflowerFall linear forwards,
-    rotateSlow 10s linear infinite;
+
+        sunflowerFall linear forwards,
+
+        rotateSlow 12s linear infinite;
 
 }
 
@@ -366,30 +587,37 @@ footer h1{
 
     from{
 
-        transform:translateY(-100px);
+        transform:
+            translateY(-120px);
 
     }
 
     to{
 
-        transform:translateY(110vh);
+        transform:
+            translateY(120vh);
 
     }
 
 }
 
-/*=========================================
-    HEART CLICK EFFECT
-=========================================*/
+/*====================================================
+                HEART EFFECT
+====================================================*/
 
 .heart{
 
     position:fixed;
-    font-size:24px;
-    color:#ff4d6d;
+
     pointer-events:none;
 
-    animation:heartFloat 1.5s forwards;
+    color:#ff4d6d;
+
+    font-size:24px;
+
+    animation:
+
+        heartFloat 1.5s forwards;
 
 }
 
@@ -398,15 +626,179 @@ footer h1{
     0%{
 
         opacity:1;
-        transform:translateY(0) scale(1);
+
+        transform:
+
+            translateY(0)
+
+            scale(1);
 
     }
 
     100%{
 
         opacity:0;
-        transform:translateY(-120px) scale(2);
+
+        transform:
+
+            translateY(-120px)
+
+            scale(2);
 
     }
 
 }
+
+/*====================================================
+                SPARKLES
+====================================================*/
+
+.sparkle{
+
+    position:fixed;
+
+    width:6px;
+
+    height:6px;
+
+    border-radius:50%;
+
+    background:#FFD400;
+
+    pointer-events:none;
+
+    box-shadow:
+
+        0 0 10px #FFD400,
+
+        0 0 20px #FFD400;
+
+    animation:
+
+        sparkle 1.4s forwards;
+
+}
+
+@keyframes sparkle{
+
+    0%{
+
+        opacity:1;
+
+        transform:scale(0);
+
+    }
+
+    40%{
+
+        transform:scale(1.4);
+
+    }
+
+    100%{
+
+        opacity:0;
+
+        transform:
+
+            translateY(-80px)
+
+            scale(0);
+
+    }
+
+}
+
+/*====================================================
+                LOADER
+====================================================*/
+
+.loader{
+
+    width:90px;
+
+    height:90px;
+
+    border-radius:50%;
+
+    border:6px solid rgba(255,212,0,.2);
+
+    border-top:6px solid #FFD400;
+
+    animation:
+
+        spin 1s linear infinite;
+
+}
+
+@keyframes spin{
+
+    from{
+
+        transform:rotate(0deg);
+
+    }
+
+    to{
+
+        transform:rotate(360deg);
+
+    }
+
+}
+
+/*====================================================
+            HOVER TRANSITIONS
+====================================================*/
+
+.card,
+.story div,
+.time-box,
+.anime div,
+button{
+
+    will-change:transform;
+
+}
+
+/*====================================================
+                REDUCED MOTION
+====================================================*/
+
+@media (prefers-reduced-motion:reduce){
+
+    *{
+
+        animation:none !important;
+
+        transition:none !important;
+
+        scroll-behavior:auto !important;
+
+    }
+
+}
+
+/*====================================================
+                MOBILE
+====================================================*/
+
+@media(max-width:768px){
+
+    .sunflower{
+
+        width:28px;
+
+    }
+
+    .heart{
+
+        font-size:18px;
+
+    }
+
+}
+
+/*====================================================
+                THE END
+====================================================*/
