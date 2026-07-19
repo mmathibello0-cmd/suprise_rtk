@@ -8,9 +8,12 @@
 
     <title>For Reabetswe ❤️</title>
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animations.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="stylesheet" href="../css/responsive.css">
 
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
@@ -19,16 +22,17 @@
 
 <body>
 
+<!-- Floating Particles -->
 <div id="particles"></div>
 
-<!-- HERO -->
+<!-- ================================= HERO ================================= -->
 
-<section class="hero">
+<section class="hero reveal" id="top">
 
     <div class="hero-content">
 
         <p class="small-title">
-            A Website Made Especially For
+            FOR THE MAN I'M PROUDEST OF
         </p>
 
         <h1>
@@ -36,170 +40,122 @@
         </h1>
 
         <h2>
-            From Remoratile ❤️
+            Final-Year Civil Engineering Student.<br>
+            Residence Anchor.<br>
+            Anime Fan.<br>
+            Stadium Supporter. 😂⚽<br>
+            My Favourite Person. ❤️
         </h2>
 
         <button onclick="scrollToSection('intro')">
-
-            Begin The Journey
-
+            🌻 Begin The Journey
         </button>
 
     </div>
 
 </section>
 
-<!-- INTRO -->
+<!-- ================================= INTRO ================================= -->
 
-<section id="intro">
+<section id="intro" class="reveal">
 
     <h2>Hello My Love ❤️</h2>
 
     <p>
-
         I wanted to make you something different.
-
-        Something that you could always come back to whenever university becomes overwhelming.
-
     </p>
 
     <p>
+        Something you could always come back to whenever university becomes overwhelming.
+    </p>
 
+    <p>
         This isn't just a website.
+    </p>
 
+    <p>
         It's a reminder of how proud I am of you.
-
     </p>
 
 </section>
 
-<!-- WORLD CUP -->
+<!-- ================================= WORLD CUP ================================= -->
 
-<section>
+<section class="reveal">
 
     <h2>⚽ Today's Match</h2>
 
     <h3>Spain 🇪🇸 vs Argentina 🇦🇷</h3>
 
     <p>
-
         I asked you who you're supporting...
-
     </p>
 
     <div class="stadium">
-
-        "The Stadium."
-
+        "The Stadium." 😂
     </div>
 
     <p>
-
-        I laughed so much because that's honestly such a Reabetswe answer.
-
+        I don't think I'll ever forget that answer.
     </p>
 
 </section>
 
-<!-- ABOUT HIM -->
+<!-- ================================= ABOUT HIM ================================= -->
 
-<section>
+<section class="reveal">
 
-    <h2>The Man I Admire</h2>
+    <h2>The Man I Admire 💛</h2>
 
     <div class="grid">
 
         <div class="card">
-
             👷
-
-            <h3>Final Year</h3>
-
-            <p>
-
-                Civil Engineering Student
-
-            </p>
-
+            <h3>Final-Year Student</h3>
+            <p>Civil Engineering</p>
         </div>
 
         <div class="card">
-
             🏡
-
             <h3>Residence Anchor</h3>
-
-            <p>
-
-                Always serving others.
-
-            </p>
-
+            <p>Always helping others.</p>
         </div>
 
         <div class="card">
-
             💛
-
             <h3>Favourite Colour</h3>
-
-            <p>
-
-                Yellow
-
-            </p>
-
+            <p>Yellow</p>
         </div>
 
         <div class="card">
-
             🌻
-
             <h3>Favourite Flower</h3>
-
-            <p>
-
-                Sunflowers
-
-            </p>
-
+            <p>Sunflowers</p>
         </div>
 
     </div>
 
 </section>
 
-<!-- ENGINEERING -->
+<!-- ================================= ENGINEERING ================================= -->
 
-<section>
+<section class="reveal">
 
     <h2>Current Project</h2>
 
-    <h1>
-
-        Becoming Engineer Reabetswe
-
-    </h1>
+    <h1>Becoming Engineer Reabetswe</h1>
 
     <div class="progress">
-
         <div class="fill"></div>
-
     </div>
 
-    <p>
-
-        Status:
-
-        Final Semester
-
-    </p>
+    <p>Status: Final Semester 🚧</p>
 
 </section>
 
-<!-- ANIME -->
+<!-- ================================= ANIME ================================= -->
 
-<section>
+<section class="reveal">
 
     <h2>Your Heroes</h2>
 
@@ -207,35 +163,23 @@
 
         <div>
 
-            <img src="dbz.png">
+            <img src="../dbz.png" alt="Dragon Ball Z">
 
             <h3>Dragon Ball Z</h3>
 
-            <p>
+            <p>Power Level</p>
 
-                Hard Work Level
-
-            </p>
-
-            <h1>
-
-                OVER 9000
-
-            </h1>
+            <h1>OVER 9000</h1>
 
         </div>
 
         <div>
 
-            <img src="naruto.png">
+            <img src="../naruto.png" alt="Naruto">
 
             <h3>Naruto</h3>
 
-            <p>
-
-                Never Give Up.
-
-            </p>
+            <p>Never Give Up.</p>
 
         </div>
 
@@ -243,11 +187,11 @@
 
 </section>
 
-<!-- OUR STORY -->
+<!-- ================================= OUR STORY ================================= -->
 
-<section>
+<section class="reveal">
 
-    <h2>Us ❤️</h2>
+    <h2>Our Story ❤️</h2>
 
     <div class="story">
 
@@ -255,29 +199,19 @@
 
             <h3>Remoratile</h3>
 
-            <p>
-
-                7 October 🎂
-
-            </p>
+            <p>🎂 7 October</p>
 
         </div>
 
-        <div>
-
+        <div style="font-size:50px;">
             ❤️
-
         </div>
 
         <div>
 
             <h3>Reabetswe</h3>
 
-            <p>
-
-                20 December 🎂
-
-            </p>
+            <p>🎂 20 December</p>
 
         </div>
 
@@ -285,166 +219,100 @@
 
 </section>
 
-<!-- COUNTDOWN -->
+<!-- ================================= COUNTDOWN ================================= -->
 
-<section>
+<section class="reveal">
 
-    <h2>
+    <h2>Counting Down To 10 Beautiful Months Together ❤️</h2>
 
-        Until Our
+    <h1>20 July</h1>
 
-        10 Month Anniversary
-
-    </h2>
-
-    <h1>
-
-        20 September
-
-    </h1>
-
-    <div id="countdown">
-
-    </div>
+    <div id="countdown"></div>
 
 </section>
 
-<!-- LETTER -->
+<!-- ================================= LETTER ================================= -->
 
-<section>
+<section class="reveal">
 
-    <h2>
-
-        An Open Letter
-
-    </h2>
+    <h2>An Open Letter</h2>
 
     <div class="letter">
 
+        <p>My Love,</p>
+
         <p>
-
-            My Love,
-
+            I know this semester is going to be one of the busiest seasons of your life.
         </p>
 
         <p>
-
-            I know you've been incredibly busy lately.
-
+            Between lectures, projects, being a residence anchor and preparing for your future,
+            I know life won't always give us as much time together as we'd like.
         </p>
 
         <p>
-
-            Between your final year, assignments, being a residence anchor and preparing for your future, I know life hasn't slowed down for you.
-
+            But I hope you always remember that I'm incredibly proud of you.
         </p>
 
         <p>
-
-            Even though we don't always get as much time together as we'd like, I hope you never doubt how much I love you.
-
+            Watching you work so hard inspires me every day.
         </p>
 
         <p>
-
-            Watching you chase your dreams makes me incredibly proud.
-
-        </p>
-
-        <p>
-
-            I believe in you with all my heart.
-
-        </p>
-
-        <p>
-
-            This final semester is just another chapter before you become the amazing engineer I already know you'll be.
-
-        </p>
-
-        <p>
-
             Keep believing in yourself.
-
         </p>
 
         <p>
-
-            Keep pushing.
-
+            Keep building your dreams.
         </p>
 
         <p>
-
             Keep smiling.
-
         </p>
 
         <p>
-
-            And whenever things become difficult...
-
+            I'll always be cheering for you.
         </p>
 
         <p>
-
-            Remember that somewhere there's a girl named Remoratile cheering louder than anyone else.
-
-        </p>
-
-        <p>
-
-            I love you more than words can ever explain.
-
+            I love you more than words could ever explain.
         </p>
 
         <h3>
-
-            Forever Yours,
-
+            Forever Yours,<br>
             ❤️ Remoratile 🌻
-
         </h3>
 
     </div>
 
 </section>
 
-<!-- FOOTER -->
+<!-- ================================= FOOTER ================================= -->
 
-<footer>
+<footer class="reveal">
 
-    <h1>
+    <h1>I Love You ❤️</h1>
 
-        I Love You
-
-    </h1>
-
-    <h2>
-
-        Good luck this semester.
-
-    </h2>
+    <h2>Good Luck This Semester.</h2>
 
     <p>
-
-        You've got this.
-
-        I'll always be your biggest supporter.
-
+        I know you'll become an amazing engineer.
     </p>
 
-    <button>
+    <p>
+        Thank you for choosing me.
+    </p>
 
+    <button onclick="window.scrollTo({top:0,behavior:'smooth'})">
         🌻 Replay Our Story
-
     </button>
 
 </footer>
 
-<script src="js/script.js"></script>
+<!-- JavaScript -->
+<script src="../js/script.js"></script>
+<script src="../js/countdown.js"></script>
+<script src="../js/particles.js"></script>
 
 </body>
-
 </html>
