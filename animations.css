@@ -1,0 +1,804 @@
+/*====================================================
+                FADE IN
+====================================================*/
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+        transform:translateY(40px);
+
+    }
+
+    to{
+
+        opacity:1;
+        transform:translateY(0);
+
+    }
+
+}
+
+/*====================================================
+                FADE LEFT
+====================================================*/
+
+@keyframes fadeLeft{
+
+    from{
+
+        opacity:0;
+        transform:translateX(-80px);
+
+    }
+
+    to{
+
+        opacity:1;
+        transform:translateX(0);
+
+    }
+
+}
+
+/*====================================================
+                FADE RIGHT
+====================================================*/
+
+@keyframes fadeRight{
+
+    from{
+
+        opacity:0;
+        transform:translateX(80px);
+
+    }
+
+    to{
+
+        opacity:1;
+        transform:translateX(0);
+
+    }
+
+}
+
+/*====================================================
+                SCALE IN
+====================================================*/
+
+@keyframes scaleIn{
+
+    from{
+
+        opacity:0;
+        transform:scale(.75);
+
+    }
+
+    to{
+
+        opacity:1;
+        transform:scale(1);
+
+    }
+
+}
+
+/*====================================================
+                FLOAT
+====================================================*/
+
+@keyframes floating{
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-12px);
+
+    }
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/*====================================================
+                GLOW
+====================================================*/
+
+@keyframes glow{
+
+    0%{
+
+        box-shadow:
+        0 0 10px rgba(255,212,0,.25);
+
+    }
+
+    50%{
+
+        box-shadow:
+        0 0 25px rgba(255,212,0,.8),
+        0 0 45px rgba(255,212,0,.35);
+
+    }
+
+    100%{
+
+        box-shadow:
+        0 0 10px rgba(255,212,0,.25);
+
+    }
+
+}
+
+/*====================================================
+                HEARTBEAT
+====================================================*/
+
+@keyframes heartbeat{
+
+    0%{
+
+        transform:scale(1);
+
+    }
+
+    25%{
+
+        transform:scale(1.08);
+
+    }
+
+    50%{
+
+        transform:scale(1);
+
+    }
+
+    75%{
+
+        transform:scale(1.05);
+
+    }
+
+    100%{
+
+        transform:scale(1);
+
+    }
+
+}
+
+/*====================================================
+                TEXT GLOW
+====================================================*/
+
+@keyframes textGlow{
+
+    0%{
+
+        text-shadow:
+        0 0 8px #FFD400;
+
+    }
+
+    50%{
+
+        text-shadow:
+        0 0 15px #FFD400,
+        0 0 30px #FFD400,
+        0 0 60px #FFD400;
+
+    }
+
+    100%{
+
+        text-shadow:
+        0 0 8px #FFD400;
+
+    }
+
+}
+
+/*====================================================
+                BOUNCE
+====================================================*/
+
+@keyframes bounce{
+
+    0%,100%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-18px);
+
+    }
+
+}
+
+/*====================================================
+                SHIMMER
+====================================================*/
+
+@keyframes shimmer{
+
+    from{
+
+        background-position:-300px;
+
+    }
+
+    to{
+
+        background-position:300px;
+
+    }
+
+}
+
+/*====================================================
+                HERO
+====================================================*/
+
+.hero-content{
+
+    animation:
+    fadeIn 1.5s ease;
+
+}
+
+.hero h1{
+
+    animation:
+
+    fadeIn 1.6s ease,
+
+    textGlow 5s ease-in-out infinite;
+
+}
+
+.hero h2{
+
+    animation:
+
+    fadeIn 2s ease;
+
+}
+
+.hero button{
+
+    animation:
+
+    fadeIn 2.5s ease,
+
+    glow 3s ease-in-out infinite;
+
+}
+/*====================================================
+                BUTTON HOVER
+====================================================*/
+
+button{
+
+    transition:
+        transform .35s ease,
+        box-shadow .35s ease,
+        background .35s ease;
+
+}
+
+button:hover{
+
+    transform:
+        translateY(-6px)
+        scale(1.04);
+
+}
+
+button:active{
+
+    transform:scale(.96);
+
+}
+
+/*====================================================
+                CARD ANIMATIONS
+====================================================*/
+
+.card{
+
+    animation:
+        scaleIn 1s ease;
+
+    transition:
+        transform .4s,
+        box-shadow .4s,
+        border-color .4s;
+
+}
+
+.card:hover{
+
+    animation:
+        floating 3s ease-in-out infinite,
+        glow 3s ease-in-out infinite;
+
+}
+
+/*====================================================
+                STADIUM
+====================================================*/
+
+.stadium{
+
+    animation:
+
+        bounce 3s ease-in-out infinite,
+
+        glow 4s ease-in-out infinite;
+
+}
+
+/*====================================================
+                PROGRESS BAR
+====================================================*/
+
+.progress{
+
+    animation:
+        glow 4s ease-in-out infinite;
+
+}
+
+.fill{
+
+    background:
+        linear-gradient(
+            90deg,
+            #FFD400,
+            #fff48d,
+            #FFD400
+        );
+
+    background-size:300%;
+
+    animation:
+
+        shimmer 3s linear infinite;
+
+}
+
+/*====================================================
+                ANIME
+====================================================*/
+
+.anime div{
+
+    animation:
+        fadeIn 1.2s ease;
+
+}
+
+.anime img{
+
+    animation:
+
+        floating 5s ease-in-out infinite;
+
+    transition:
+        transform .4s,
+        filter .4s;
+
+}
+
+.anime img:hover{
+
+    transform:scale(1.08);
+
+    filter:
+        drop-shadow(0 0 20px #FFD400);
+
+}
+
+.anime h1{
+
+    animation:
+        textGlow 5s ease-in-out infinite;
+
+}
+
+/*====================================================
+                STORY
+====================================================*/
+
+.story div{
+
+    animation:
+        fadeIn 1.3s ease;
+
+    transition:
+        transform .4s,
+        box-shadow .4s;
+
+}
+
+.story div:hover{
+
+    transform:
+        translateY(-10px);
+
+}
+
+/*====================================================
+                COUNTDOWN
+====================================================*/
+
+.time-box{
+
+    animation:
+
+        floating 6s ease-in-out infinite,
+
+        glow 5s ease-in-out infinite;
+
+}
+
+.time-box:nth-child(2){
+
+    animation-delay:.5s;
+
+}
+
+.time-box:nth-child(3){
+
+    animation-delay:1s;
+
+}
+
+.time-box:nth-child(4){
+
+    animation-delay:1.5s;
+
+}
+
+/*====================================================
+                LETTER
+====================================================*/
+
+.letter{
+
+    animation:
+
+        fadeIn 2s ease;
+
+}
+
+.letter:hover{
+
+    animation:
+
+        floating 8s ease-in-out infinite;
+
+}
+
+/*====================================================
+                FOOTER
+====================================================*/
+
+footer h1{
+
+    animation:
+
+        textGlow 5s ease-in-out infinite;
+
+}
+
+footer button{
+
+    animation:
+
+        glow 4s ease-in-out infinite;
+
+}
+/*====================================================
+                SCROLL REVEAL
+====================================================*/
+
+.reveal{
+
+    opacity:0;
+
+    transform:translateY(80px);
+
+    transition:
+        opacity 1s ease,
+        transform 1s ease;
+
+}
+
+.reveal.active{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+/*====================================================
+                ROTATE
+====================================================*/
+
+@keyframes rotateSlow{
+
+    from{
+
+        transform:rotate(0deg);
+
+    }
+
+    to{
+
+        transform:rotate(360deg);
+
+    }
+
+}
+
+/*====================================================
+            FLOATING SUNFLOWERS
+====================================================*/
+
+.sunflower{
+
+    position:fixed;
+
+    top:-100px;
+
+    width:45px;
+
+    pointer-events:none;
+
+    z-index:999;
+
+    animation:
+
+        sunflowerFall linear forwards,
+
+        rotateSlow 12s linear infinite;
+
+}
+
+@keyframes sunflowerFall{
+
+    from{
+
+        transform:
+            translateY(-120px);
+
+    }
+
+    to{
+
+        transform:
+            translateY(120vh);
+
+    }
+
+}
+
+/*====================================================
+                HEART EFFECT
+====================================================*/
+
+.heart{
+
+    position:fixed;
+
+    pointer-events:none;
+
+    color:#ff4d6d;
+
+    font-size:24px;
+
+    animation:
+
+        heartFloat 1.5s forwards;
+
+}
+
+@keyframes heartFloat{
+
+    0%{
+
+        opacity:1;
+
+        transform:
+
+            translateY(0)
+
+            scale(1);
+
+    }
+
+    100%{
+
+        opacity:0;
+
+        transform:
+
+            translateY(-120px)
+
+            scale(2);
+
+    }
+
+}
+
+/*====================================================
+                SPARKLES
+====================================================*/
+
+.sparkle{
+
+    position:fixed;
+
+    width:6px;
+
+    height:6px;
+
+    border-radius:50%;
+
+    background:#FFD400;
+
+    pointer-events:none;
+
+    box-shadow:
+
+        0 0 10px #FFD400,
+
+        0 0 20px #FFD400;
+
+    animation:
+
+        sparkle 1.4s forwards;
+
+}
+
+@keyframes sparkle{
+
+    0%{
+
+        opacity:1;
+
+        transform:scale(0);
+
+    }
+
+    40%{
+
+        transform:scale(1.4);
+
+    }
+
+    100%{
+
+        opacity:0;
+
+        transform:
+
+            translateY(-80px)
+
+            scale(0);
+
+    }
+
+}
+
+/*====================================================
+                LOADER
+====================================================*/
+
+.loader{
+
+    width:90px;
+
+    height:90px;
+
+    border-radius:50%;
+
+    border:6px solid rgba(255,212,0,.2);
+
+    border-top:6px solid #FFD400;
+
+    animation:
+
+        spin 1s linear infinite;
+
+}
+
+@keyframes spin{
+
+    from{
+
+        transform:rotate(0deg);
+
+    }
+
+    to{
+
+        transform:rotate(360deg);
+
+    }
+
+}
+
+/*====================================================
+            HOVER TRANSITIONS
+====================================================*/
+
+.card,
+.story div,
+.time-box,
+.anime div,
+button{
+
+    will-change:transform;
+
+}
+
+/*====================================================
+                REDUCED MOTION
+====================================================*/
+
+@media (prefers-reduced-motion:reduce){
+
+    *{
+
+        animation:none !important;
+
+        transition:none !important;
+
+        scroll-behavior:auto !important;
+
+    }
+
+}
+
+/*====================================================
+                MOBILE
+====================================================*/
+
+@media(max-width:768px){
+
+    .sunflower{
+
+        width:28px;
+
+    }
+
+    .heart{
+
+        font-size:18px;
+
+    }
+
+}
+
+/*====================================================
+                THE END
+====================================================*/
